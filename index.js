@@ -12,5 +12,9 @@ function genPeople() {
       shareR: "XX",
     };
     console.log(Person);
+    var x = document.createElement("INPUT");
+    x.setAttribute("type", "text");
+    document.body.appendChild(x);
+
   };
 }
